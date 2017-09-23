@@ -1,4 +1,5 @@
 // Command for drop-in replacements
+// cordova plugin remove <plugin> --save
 // cordova plugin add <plugin> --save --variable APP_ID="284976281987715" --variable APP_NAME="Snapchase"
 
 const state = {

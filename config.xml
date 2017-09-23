@@ -9,6 +9,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -25,9 +26,13 @@
         <preference name="BackupWebStorage" value="none" />
     </platform>
     <preference name="DisallowOverscroll" value="true" />
-    <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
+    <engine name="browser" spec="^4.1.0" />
+    <engine name="ios" spec="^4.4.0" />
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
+    <plugin name="cordova-plugin-facebook4" spec="^1.9.1">
+        <variable name="APP_ID" value="284976281987715" />
+        <variable name="APP_NAME" value="Snapchase" />
+    </plugin>
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
-    <engine name="browser" spec="~4.1.0" />
-    <engine name="ios" spec="~4.4.0" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
 </widget>

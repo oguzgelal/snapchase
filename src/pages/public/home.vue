@@ -6,7 +6,7 @@
                 <f7-link href="/about/">About</f7-link>
             </f7-list-item>
             <f7-list-item>
-                <f7-link v-on:click="signIn">Login with Facebook</f7-link>
+                <f7-link v-on:click="signIn">Loginnn with Facebook</f7-link>
             </f7-list-item>
         </f7-list>
     </f7-page>
